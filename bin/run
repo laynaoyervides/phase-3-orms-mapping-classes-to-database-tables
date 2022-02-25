@@ -5,3 +5,5 @@ require_relative '../config/environment'
 
 binding.pry
 "pls"
+
+DB = { conn: SQLite3::Database.new("db/music.db") }
